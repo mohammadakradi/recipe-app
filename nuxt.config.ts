@@ -7,5 +7,16 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts']
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+    '@nuxt/icon',
+    '@nuxt/image'
+  ],
+
+  googleFonts: {
+    families: {
+      Montserrat: true
+    }
+  }
 })
